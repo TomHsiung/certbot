@@ -1,0 +1,3 @@
+# Manually retriving a certificate from Let's Encrypt serivce via DNS verification. Also an ECDSA algorithm with 384 bit private key is used.
+
+certbot certonly --key-type ecdsa --elliptic-curve secp384r1 --manual --preferred-challenges dns --agree-tos --no-eff-email --email username@mail.com -d domain.com
