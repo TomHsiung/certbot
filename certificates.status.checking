@@ -1,0 +1,2 @@
+# Display the certificates Certbot is managing, including expiration dates.
+certbot certificates
