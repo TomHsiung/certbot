@@ -1,3 +1,6 @@
-#--force-renewal tells Certbot to request a new certificate with the same domains as an existing certificate. Each domain must be explicitly specified via -d.
+# --force-renewal tells Certbot to request a new certificate with the same domains as an existing certificate. Each domain must be explicitly specified via -d.
 
 certbot certonly --force-renew -d example.com
+
+# With more options
+certbot certonly --manual --force-renew -d example.com --key-type ecdsa --elliptic-curve secp384r1 --preferred-challenges dns
