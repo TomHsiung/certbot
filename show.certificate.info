@@ -1,0 +1,1 @@
+sudo openssl x509 -in /etc/letsencrypt/archive/example.com/fullchain2.pem -text -noout
